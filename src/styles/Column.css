@@ -1,0 +1,39 @@
+.column {
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column .title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: start;
+  margin-bottom: 10px;
+  color: #000000; 
+}
+
+.column img {
+  height: 20px; 
+  max-width: 20px; 
+}
+
+.title-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  padding: 1%;
+}
+
+.title-logo img {
+  margin-right: 8px; 
+}
+
+.title-logo h2 {
+  margin-right: 8px; 
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
